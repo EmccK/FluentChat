@@ -24,6 +24,7 @@ kotlin {
 
     sourceSets {
         commonMain.dependencies {
+            implementation(libs.androidx.lifecycle.viewmodelCompose)
             implementation(libs.napier)
             implementation(libs.kermit)
         }
