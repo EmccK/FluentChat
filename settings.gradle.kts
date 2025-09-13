@@ -1,3 +1,5 @@
+@file:Suppress("UnstableApiUsage")
+
 rootProject.name = "FluentChat"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
@@ -35,3 +37,4 @@ plugins {
 }
 
 include(":composeApp")
+include(":core:common")
